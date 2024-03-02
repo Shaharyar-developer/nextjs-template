@@ -6,11 +6,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Template, Next.js + shadcnui",
-  description: "A template for Next.js + shadcnui.",
+  title: "Dashboard | Acuman",
+  description: "Your Personal Notes Taker and Schdeule Manager | Acuman",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
